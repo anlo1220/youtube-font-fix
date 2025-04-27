@@ -1,24 +1,28 @@
-# YouTube 字型修正（簡繁體兼容）
+# YouTube 字型修正（超完整兼容＋中文選單＋顯示當前字型）
 
 ## 介紹
-這個 Tampermonkey（油猴）腳本可以在 **YouTube** 上**強制套用兼容簡體和繁體中文的字型**，
-避免簡體字在繁體語系環境下出現亂碼、框框、顯示異常等問題。
-確保無論簡體或繁體內容，都能清晰正確顯示。
+這個油猴腳本可以讓 YouTube 上簡繁體中文顯示正確，且可以**自由切換字型風格**，
+並且在油猴選單中顯示**目前使用中的字型**。
 
 ## 功能特色
-- ✅ 強制使用 Noto Sans CJK / 微軟正黑體 / 微軟雅黑 等兼容字型
-- ✅ 保持原有 YouTube 排版不變
-- ✅ 不影響其他網站，只作用在 YouTube
-- ✅ 支援簡體繁體混排，無亂碼問題
+- ✅ 自動套用系統內建字型，兼容簡繁體
+- ✅ 支援微軟正黑體、雅黑體、蘋方 PingFang、思源黑體、系統預設 Arial
+- ✅ 油猴選單自由切換字型風格
+- ✅ 選單顯示目前使用字型
+- ✅ 設定記憶，不需每次重選
+- ✅ MIT License
 
 ## 安裝方法
-1. 確保已安裝 [Tampermonkey 擴充套件](https://www.tampermonkey.net/)。
-2. 點擊下方連結安裝腳本：
+1. 安裝 [Tampermonkey](https://www.tampermonkey.net/)。
+2. 點擊以下連結安裝腳本：  
+👉 [安裝腳本](https://raw.githubusercontent.com/anlo1220/youtube-font-fix/main/youtube-font-fix.user.js)
 
-👉 [點我安裝](https://raw.githubusercontent.com/anlo1220/youtube-font-fix/main/youtube-font-fix.user.js)
+## 字型選項
+- 微軟正黑體風格 (jhenghei)
+- 微軟雅黑體風格 (yahei)
+- 蘋方 PingFang 風格 (pingfang)
+- 思源黑體風格 (sourcehan)
+- 系統預設 Arial (default)
 
-## 授權 License
+## License
 MIT License
-
-## 支援與回報問題
-如果有任何問題或建議，歡迎開啟 [Issues](https://github.com/anlo1220/youtube-font-fix/issues)。
