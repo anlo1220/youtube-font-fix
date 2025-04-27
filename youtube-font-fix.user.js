@@ -11,8 +11,8 @@
 // @grant        GM_registerMenuCommand
 // @license      MIT
 // @supportURL   https://github.com/anlo1220/youtube-font-fix/issues
-// @updateURL    https://raw.githubusercontent.com/anlo1220/youtube-font-fix/main/youtube-font-fix.user.js
-// @downloadURL  https://raw.githubusercontent.com/anlo1220/youtube-font-fix/main/youtube-font-fix.user.js
+// @updateURL    https://github.com/anlo1220/youtube-font-fix/releases/latest/download/youtube-font-fix.user.js
+// @downloadURL  https://github.com/anlo1220/youtube-font-fix/releases/latest/download/youtube-font-fix.user.js
 // ==/UserScript==
 
 (function() {
